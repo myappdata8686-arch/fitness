@@ -160,3 +160,17 @@ Keep V1 strict:
 - No immersive mode
 - Focus on deterministic functional architecture only
 
+
+
+## 9) Create an APK
+### Local (if Flutter SDK is installed)
+```bash
+./scripts/build_apk.sh
+```
+Output:
+- `build/app/outputs/flutter-apk/app-debug.apk`
+
+### GitHub Actions (no local Flutter needed)
+- Run workflow: **Build Android APK**
+- Download artifact: `athletic-os-debug-apk`
+
